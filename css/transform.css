@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.box1{
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+}
+.box1:hover{
+    transform: translate(50px,100px);
+}
+.box2{
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    float: left;
+}
+.box2:hover{
+    transform: rotate(50deg);
+}
+.box3{
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    float: left;
+}
+.box3:hover{
+    transform: scale(2,3);
+}
+.box4{
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+    background-color:blue;
+    float: left;
+}
+.box4:hover{
+    transform: skewX(20deg);
+}
+.box5{
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+    background-color:black;
+    float: left;
+}
+.box5:hover{
+    transform: skewy(20deg);
+}
+.box6{
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    float: left;
+}
+.box6:hover{
+    transform: skew(20deg,10deg);
+}
